@@ -6,10 +6,7 @@ the intuition is that every bounding box would have similar but slightly differe
 so we can augment the number of samples for each tree
 '''
 import random
-
-#%%
-from sklearn.feature_extraction import image
-
+from glcm_loader import load_glcm
 # tree ndarray structure
 # (119, 74, 8,7)
 # (Height, Width, Channel, Features)
@@ -37,8 +34,6 @@ VAR_I = 6
 VAR_J = 7
 CORRELATION = 8
 '''
-from glcm_loader import load_glcm
-
 def augment_trees(tree, bb_size, sample_number):
     trees = []
 
