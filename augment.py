@@ -45,10 +45,10 @@ def augment_trees(tree, bb_size, sample_number):
         sample = (tree[x:x+bb_size,y:y+bb_size,:,:]) # is there a better way to generate the random samples?
         trees.append(sample)
 
-    return samples
+    return trees
 
 #%%
 tree = load_glcm('data/glcm_18Dec2020_3rad_2step_128bins_1xDownScale_Clausena Excavata_11.npz')
 #%%
 samples = augment_trees(tree, 20, 20) # this maintain a list of augmented tree crowns. from 1 labeled bounding box of a tree,
-# we now have 20 'instances' of the said tree
+# we now have 20 or more 'instances' of the said tree
