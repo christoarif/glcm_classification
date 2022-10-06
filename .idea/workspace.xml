@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c7d04f3c-fbc4-46c1-b3d6-d040ed8919e5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/augment.py" beforeDir="false" afterPath="$PROJECT_DIR$/augment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/augment.py" beforeDir="false" afterPath="$PROJECT_DIR$/augment_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glcm_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/glcm_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +78,8 @@
       <updated>1664802159326</updated>
       <workItem from="1664802160909" duration="18000" />
       <workItem from="1664811879656" duration="8778000" />
+      <workItem from="1664950889484" duration="4161000" />
+      <workItem from="1665031810108" duration="927000" />
     </task>
     <servers />
   </component>
